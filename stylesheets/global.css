@@ -5,11 +5,35 @@
 }
 
 .menu-bar {
-    background-color: bisque;
+    background-color: #242830;
     color: black;
     height: 0;
     overflow: hidden;
     transition: all 0.3s;
+}
+
+.menu-bar .menu-bar__list {
+    width: 100%;
+    padding: 1rem 15rem;
+    list-style: none;
+}
+
+.menu-bar .menu-bar__list .menu-bar__list__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.3rem 0;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.6);;
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.menu-bar .menu-bar__list .menu-bar__list__item:hover{
+    border-bottom: 1px dashed white;
+    color: white;
 }
 
 .menu-bar.active {
