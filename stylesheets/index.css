@@ -1,0 +1,29 @@
+.top-container .top-container__content .content__box{
+    width: 100%;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-container .top-container__content .content__box:after{
+    content: " ";
+    border: solid 1px #0093cb;
+    width: 5rem;
+    margin: 10px auto;
+}
+
+.top-container .top-container__content .content__box .content__box__title{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    padding: 5px 5px;
+    text-transform: uppercase;
+}
+
+.top-container .top-container__content .content__box .content__box__sub_title{
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    padding: 5px 5px;
+    text-transform: uppercase;
+}
