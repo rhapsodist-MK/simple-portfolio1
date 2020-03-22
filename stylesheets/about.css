@@ -20,6 +20,11 @@
 .main-container .about-section .about__img {
     background-color: red;
     height: 30rem;
+    background-image: url('../images/about.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
 }
 
 .main-container .about-section .about__content {

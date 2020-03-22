@@ -1,0 +1,77 @@
+.main-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem 10rem;
+  background-color: white;
+  color: #333333;
+}
+
+.main-container .material-icons {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.main-container h1 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.main-container p {
+  font-size: 1rem;
+  padding: 1rem 15rem;
+  text-align: center;
+  color: #8c9398;
+  line-height: 1.5rem;
+}
+
+
+
+
+.contact-container {
+  width: 100%;
+  padding: 5rem 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f3f5f8;
+}
+
+.contact-container h1 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container form input,
+.contact-container form textarea {
+  width: 30rem;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.contact-container form input {
+  height: 3rem;
+}
+
+.contact-container form textarea {
+  height: 12rem;
+}
+
+.contact-container form button {
+  border: 2px solid #eeeeee;
+  color: #999;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}

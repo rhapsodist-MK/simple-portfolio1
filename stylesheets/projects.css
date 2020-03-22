@@ -1,7 +1,7 @@
 .main-container {
     width: 100%;
     height: auto;
-    padding: 2rem 10rem;
+    padding: 2rem 5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -18,16 +18,30 @@
     text-decoration: none;
     color: transparent;
 }
-.main-container .main-container__portfolio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 25rem;
-    height: 15rem;
-    background-color: red;
-    transition: all 0.5s;
-    text-decoration: none;
-    color: transparent;
+
+.main-container .main-container__portfolio:nth-child(1) {
+    background-image: url('../images/project1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-container .main-container__portfolio:nth-child(2) {
+    background-image: url('../images/project2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-container .main-container__portfolio:nth-child(3) {
+    background-image: url('../images/project3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-container .main-container__portfolio:nth-child(4) {
+    background-image: url('../images/project4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-container .main-container__portfolio .portfolio__title:after{
@@ -40,7 +54,8 @@
 }
 
 .main-container .main-container__portfolio:hover {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
     color: white;
 }
 
