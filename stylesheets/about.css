@@ -99,3 +99,29 @@
     padding: 1rem;
     color: #8c9398;
 }
+
+
+@media screen and (max-width: 930px) {
+    .main-container {
+        padding: 4rem 1rem;
+    }
+    
+    .main-container .about-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .main-container .about-section .about__title {
+        grid-column: 1;
+    }
+
+
+    .help-container {
+        padding: 4rem 1rem;
+    }
+
+    .help-container .help__items {
+        grid-template-columns: 1fr;
+    }
+}

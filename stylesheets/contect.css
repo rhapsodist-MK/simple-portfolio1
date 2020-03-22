@@ -75,3 +75,20 @@
   padding: 1rem 2rem;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 930px) {
+  .main-container {
+    padding: 5rem 1rem;
+  }
+  .main-container p {
+    padding: 1rem 1rem;
+  }
+
+  .contact-container {
+    padding: 5rem 1rem;
+  }
+  .contact-container form input,
+  .contact-container form textarea {
+    width: 20rem;
+  }
+}

@@ -51,7 +51,6 @@
 .main-container .inner {
     margin: 0 auto;
     display: grid;
-    justify-content: space-around;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
 }
@@ -60,3 +59,14 @@
     letter-spacing: 0.5px;
     line-height: 1.5rem;
 } 
+
+
+@media screen and (max-width: 930px) {
+    .main-container {
+        padding: 5rem 1rem;
+    }
+
+    .main-container .inner {
+        grid-template-columns: 1fr;
+    }
+}
