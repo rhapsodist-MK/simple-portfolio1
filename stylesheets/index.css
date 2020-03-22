@@ -1,5 +1,5 @@
 .top-container {
-    background-image: url('../images/top2.jpg');
+    background-image: url('../images/top.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,9 +111,17 @@
 }
 .main-container .main-container__portfolio:nth-child(5) {
     animation: fadeInDown 3s both;
+    background-image: url('../images/project5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .main-container .main-container__portfolio:nth-child(6) {
     animation: fadeInDown 3.5s both;
+    background-image: url('../images/project6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-container .main-container__portfolio .portfolio__title:after{

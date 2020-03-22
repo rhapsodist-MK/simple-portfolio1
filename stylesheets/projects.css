@@ -43,6 +43,36 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.main-container .main-container__portfolio:nth-child(5) {
+    background-image: url('../images/project5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-container .main-container__portfolio:nth-child(6) {
+    background-image: url('../images/project6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-container .main-container__portfolio:nth-child(7) {
+    background-image: url('../images/project7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-container .main-container__portfolio:nth-child(8) {
+    background-image: url('../images/project8.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-container .main-container__portfolio:nth-child(9) {
+    background-image: url('../images/project9.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .main-container .main-container__portfolio .portfolio__title:after{
     display: block;
