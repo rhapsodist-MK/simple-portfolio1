@@ -27,6 +27,7 @@
     letter-spacing: 5px;
     padding: 5px 5px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .top-container .top-container__content .content__box .content__box__sub_title{
@@ -36,6 +37,7 @@
     text-transform: uppercase;
     transition: all 1s;
     animation: fadeInUp 1s both;
+    text-align: center;
 }
 
 .top-container .contact-btn{
