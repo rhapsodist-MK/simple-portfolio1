@@ -7,6 +7,7 @@ const showMenuEvent = (el) => {
         e.stopPropagation();
         nav_bar__toggle.classList.toggle('active')
         menu_bar.classList.toggle('active')
+        window.scrollTo(0, 0)
     })
 }
 
