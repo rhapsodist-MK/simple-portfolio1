@@ -50,12 +50,13 @@
 
 .main-container .inner {
     margin: 0 auto;
-    display: flex;
+    display: grid;
     justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
 }
 
 .main-container .inner p {
-    width: 45%;
     letter-spacing: 0.5px;
     line-height: 1.5rem;
-}
+} 

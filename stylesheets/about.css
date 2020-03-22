@@ -9,7 +9,6 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 1rem;
-    /* grid-auto-rows: minmax(10rem, auto); */
 }
 
 .main-container .about-section .about__title {
@@ -18,7 +17,6 @@
     font-size: 1.5rem;
 }
 .main-container .about-section .about__img {
-    background-color: red;
     height: 30rem;
     background-image: url('../images/about.jpg');
     background-position: center;
