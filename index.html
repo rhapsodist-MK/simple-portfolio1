@@ -1,98 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./stylesheets/global.css">
-    <link rel="stylesheet" href="./stylesheets/index.css">
-    <link href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylesheets/global.css" />
+    <link rel="stylesheet" href="./stylesheets/index.css" />
+    <link
+      href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css"
+      rel="stylesheet" />
     <script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <!-- pwa -->
+    <link rel="manifest" href="manifest.json" />
+
     <title>Simple Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <section class="menu-bar" id="menu-bar">
-        <ul class="menu-bar__list">
-            <a href="/" class="menu-bar__list__item">
-                <li>Home</li>
-                <i class="material-icons arrow">keyboard_arrow_right</i>
-            </a>
-            <a href="/projects.html" class="menu-bar__list__item">
-                <li>Portfolio</li>
-                <i class="material-icons arrow">keyboard_arrow_right</i>
-            </a>
-            <a href="/about.html" class="menu-bar__list__item">
-                <li>About</li>
-                <i class="material-icons arrow">keyboard_arrow_right</i>
-            </a>
-            <a href="/contect.html" class="menu-bar__list__item">
-                <li>Get in Touch</li>
-                <i class="material-icons arrow">keyboard_arrow_right</i>
-            </a>
-        </ul>
+      <ul class="menu-bar__list">
+        <a href="/" class="menu-bar__list__item">
+          <li>Home</li>
+          <i class="material-icons arrow">keyboard_arrow_right</i>
+        </a>
+        <a href="/projects.html" class="menu-bar__list__item">
+          <li>Portfolio</li>
+          <i class="material-icons arrow">keyboard_arrow_right</i>
+        </a>
+        <a href="/about.html" class="menu-bar__list__item">
+          <li>About</li>
+          <i class="material-icons arrow">keyboard_arrow_right</i>
+        </a>
+        <a href="/contect.html" class="menu-bar__list__item">
+          <li>Get in Touch</li>
+          <i class="material-icons arrow">keyboard_arrow_right</i>
+        </a>
+      </ul>
     </section>
     <section class="top-container">
-        <div class="top-container__nav nav-bar">
-            <a href="/" class="nav-bar__logo">Simple Portfolio</a>
-            <a class="nav-bar__toggle" id="nav-bar__toggle">
-                <span class="toggle-btn"></span>
-            </a>
+      <div class="top-container__nav nav-bar">
+        <a href="/" class="nav-bar__logo">Simple Portfolio</a>
+        <a class="nav-bar__toggle" id="nav-bar__toggle">
+          <span class="toggle-btn"></span>
+        </a>
+      </div>
+      <div class="top-container__content">
+        <div class="content__box">
+          <h1 class="content__box__title">Personal Portfolio</h1>
+          <h2 class="content__box__sub_title">Web & Graphic Design</h2>
         </div>
-        <div class="top-container__content">
-            <div class="content__box">
-                <h1 class="content__box__title">Personal Portfolio</h1>
-                <h2 class="content__box__sub_title">Web & Graphic Design</h2>
-            </div>
-        </div>
-        <a href="/contect.html" class="contact-btn">Get In Touch</a>
+      </div>
+      <a href="/contect.html" class="contact-btn">Get In Touch</a>
     </section>
 
     <section class="main-container">
-        <div class="portfolio-container">
-            <a href="/projects/demo1.html" class="main-container__portfolio">
-                <div class="portfolio__title">
-                    Demo1
-                </div>
-            </a>
-            <a href="/projects/demo2.html" class="main-container__portfolio">
-                <div class="portfolio__title">
-                    Demo2
-                </div>
-            </a>
-            <a href="/projects/demo3.html" class="main-container__portfolio">
-                <div class="portfolio__title">
-                    Demo3
-                </div>
-            </a>
-            <a href="/projects/demo4.html" class="main-container__portfolio">
-                <div class="portfolio__title">
-                    Demo4
-                </div>
-            </a>
-            <a href="/projects/demo5.html" class="main-container__portfolio">
-                <div class="portfolio__title">
-                    Demo5
-                </div>
-            </a>
-            <a href="/projects/demo6.html" class="main-container__portfolio">
-                <div class="portfolio__title">
-                    Demo6
-                </div>
-            </a>
-        </div>
+      <div class="portfolio-container">
+        <a href="/projects/demo1.html" class="main-container__portfolio">
+          <div class="portfolio__title">Demo1</div>
+        </a>
+        <a href="/projects/demo2.html" class="main-container__portfolio">
+          <div class="portfolio__title">Demo2</div>
+        </a>
+        <a href="/projects/demo3.html" class="main-container__portfolio">
+          <div class="portfolio__title">Demo3</div>
+        </a>
+        <a href="/projects/demo4.html" class="main-container__portfolio">
+          <div class="portfolio__title">Demo4</div>
+        </a>
+        <a href="/projects/demo5.html" class="main-container__portfolio">
+          <div class="portfolio__title">Demo5</div>
+        </a>
+        <a href="/projects/demo6.html" class="main-container__portfolio">
+          <div class="portfolio__title">Demo6</div>
+        </a>
+      </div>
     </section>
     <footer class="footer-container">
-        <div class="footer-container__page-links">
-            <a href="/projects.html" class="page-links__item">Work</a>
-            <a href="/about.html" class="page-links__item">About</a>
-            <a href="/contect.html" class="page-links__item">Hello</a>
-        </div>
-        <div class="footer-container__line"></div>
+      <div class="footer-container__page-links">
+        <a href="/projects.html" class="page-links__item">Work</a>
+        <a href="/about.html" class="page-links__item">About</a>
+        <a href="/contect.html" class="page-links__item">Hello</a>
+      </div>
+      <div class="footer-container__line"></div>
 
-        <p class="footer-container__copy">
-            © 2020 · Rhapsodist · All Rights Reserved
-        </p>
+      <p class="footer-container__copy">
+        © 2020 · Rhapsodist · All Rights Reserved
+      </p>
     </footer>
     <script src="./js/menu.js"></script>
-</body>
+  </body>
 </html>

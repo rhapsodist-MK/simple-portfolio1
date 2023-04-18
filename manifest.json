@@ -1,0 +1,13 @@
+{
+  "name": "MK-SP",
+  "start_url": "/",
+  "id": "mk_sp",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}
